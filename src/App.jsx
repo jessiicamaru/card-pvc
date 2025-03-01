@@ -73,7 +73,7 @@ function App() {
     }, []);
 
     return (
-        <div className="w-full h-screen flex items-center justify-center relative">
+        <div className="w-full h-screen flex items-center justify-center relative bg-[url('/src/assets/bg.jpg')] bg-cover bg-center">
             {!isMobile && (
                 <button onClick={prevFn} className="absolute left-10 p-3 bg-gray-800 text-white rounded-full shadow-lg hover:bg-gray-600">
                     ⬅
